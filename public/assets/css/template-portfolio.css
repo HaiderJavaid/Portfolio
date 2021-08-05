@@ -1,0 +1,292 @@
+
+  /* EXTRA */
+
+  .one-button a {
+    margin-top: 25px;
+    margin-left: 5px;
+    display: inline-block;
+    background-color: #caa66f;
+    border: 1px solid #caa66f;
+    padding: 10px 25px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+  }
+  
+  
+  
+  /* HERO SECTION */
+
+  .port-content {
+    padding-top: 8vh;
+    text-align: start;
+   /* background-color: #282b2f; */
+   background-image: url(../img/greek-statue.jpeg);
+   background-repeat: no-repeat;
+   background-size: 35cm;
+   background-position: -3vh;
+   
+  }
+  
+  
+  
+  .port-content h1 {
+    margin-top: 0px;
+    font-size: 80px;
+    color: white;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+  }
+  
+  .port-content em {
+    color: #fff;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .port-content span {
+    display: inline-block;
+    margin-top: -20px;
+    font-weight: 300;
+    font-size: 40px;
+    color: #787878;
+  }
+  
+  .port-content .primary-button {
+    margin-top: 15px;
+  }
+  
+  /* ABOUT SECTION */
+  
+
+
+  .about {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 7vh;
+    background-color: white;
+    background-attachment: fixed;
+    min-height: 70vh;
+    background-size: cover;
+    background-position: center center;
+  }
+  
+  .about .left-text h4 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+  }
+  
+  h4, .h4 {
+    font-size: 18px;
+  }
+  
+  .service-title{
+    font-size: 30px;
+    font-weight: 200;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 6vh;
+    color: black;
+  }
+
+  .about-title{
+    font-size: 30px;
+    font-weight: 200;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 6vh;
+    color: black;
+  }
+  
+  .about .left-text .line-dec {
+    width: 45px;
+    height: 3px;
+    background-color: #caa66f;
+    margin: 20px 0px 20px 0px;
+  }
+  
+  .about .left-text p {
+    color: #fff;
+  }
+  
+  .about .left-text ul {
+    padding: 0;
+    margin-top: 30px;
+    list-style: none;
+  }
+  
+  .about .left-text ul li {
+    margin: 15px 0px;
+    font-weight: 600;
+    color: #fff;
+  }
+  
+  .about .left-text .primary-button {
+    margin: 30px 0px;
+  }
+  
+  .about .service-item {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 25px 30px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 30px;
+  }
+  
+  .about .service-item .line-dec {
+    width: 170px;
+    height: 3px;
+    background-color: #caa66f;
+    margin: 20px auto 15px auto;
+  }
+  
+  
+  #portfolio {
+    padding-top: 50px;
+  }
+  
+  
+  /* SKILLS SECTION */
+
+  .skills{
+    padding-top: 20vh;
+    background-color: #fff ;
+    
+  }
+  
+  .skills .item img {
+    width: 100%;
+  }
+  
+  .skills .item {
+    margin: 15px;
+  }
+  
+  .skills .item .text-content {
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .skills .item .text-content h4 {
+    margin-top: 0px;
+    font-size: 19px;
+    font-weight: 600;
+  }
+  
+  .skills .item .text-content span {
+    font-style: normal;
+    font-size: 17px;
+    font-weight: 700;
+    color: #caa66f;
+  }
+
+  .tech-list img{
+    padding: 10px;
+  }
+
+  .tech-list{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .skill-list{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .skill-list li{
+    font-size: 18px;
+    color: black;
+    padding: 5px;
+  }
+
+  /* Responsive */
+
+  @media (max-width: 767px){
+  
+    .port-content {
+      padding-top: 10vh;
+      padding-bottom: 10vh;
+    }
+  
+    .port-content h1 {
+      font-size: 64px;
+    }
+  
+   
+    .port-content span {
+      font-size: 15px;
+    }
+  
+    .port-content .primary-button {
+      margin-top: 15px;
+    }
+  
+    .about {
+      padding-top: 5vh;
+      text-align: center;
+    }
+  
+    .about .left-text .line-dec {
+      width: 45px;
+      height: 3px;
+      background-color: #caa66f;
+      margin: 20px auto 20px auto;
+    }
+  
+    .about .left-text ul {
+      text-align: left;
+    }
+  
+    .about .service-item {
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 25px 30px;
+      text-align: center;
+      color: #fff;
+      margin-bottom: 30px;
+    }
+  
+  }
+  
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1170px;
+    }
+  }
+
+  @media (max-width: 767px){
+    .hero-section {
+      margin-top: 30vh;
+    }
+
+    .handwriting svg{
+     height: 100%;
+     width: 100%;
+    }
+    .web-dev{
+      font-size: 20px;
+    }
+
+    .service-title{
+      margin-bottom: 30px;
+    }
+    .skill-list{
+      margin-bottom: 100px;
+    }
+    .tech-list{
+      margin-bottom: 50px;
+    }
+  }
